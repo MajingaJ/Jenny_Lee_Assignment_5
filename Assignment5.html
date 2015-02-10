@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			JavaScript Cheatsheet!
+		</title>
+	<head>
+
+	<body>
+		<h1>JavaScript Cheatsheet</h1>
+		<script>
+			//This is single line comment in JavaScript!
+			/* This is multiple
+				line comment
+					in Javascript */
+			alert("Hello JavaScript!")
+
+			var x = 5;
+			var y = 10;
+			console.log(x + y);
+			console.log(x < y);
+			console.log(x > y);
+			console.log(x === y);
+
+			var colors = ["blue", "yellow", "red"];
+			var shapes = ["circle", "triangle", "rectangle"];
+			var colorsShapes = [colors, shapes];
+			console.log(colors[1]);
+			console.log(shapes[2]);
+			console.log(colorsShapes[0][2]);
+			console.log(colorsShapes[1][0]);
+
+			var age = prompt("What is your age?");
+			if(age<13){
+				console.log("You can play but we don't take any responsibility!");
+			} else {
+				console.log("You can play for sure!!");
+			}
+
+			function myName(someoneName){
+				return alert(someoneName);
+			}
+			myName("Jenny");
+
+			function chooseNumber(number) {
+				if (number === 5) {
+					return "You are great!";
+				} else if (number === 3) {
+					return "You are just ok...";
+				} else {
+					return "You are Wrong!";
+				} 
+			}
+
+			console.log(chooseNumber(5));
+			console.log(chooseNumber(8));
+
+			function someNumber(number1, number2){
+				return number1 + number2;
+			}
+				alert(someNumber(5, 10));
+
+		</script>
+
+	</body>	
+<html>	
+
